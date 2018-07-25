@@ -1,0 +1,36 @@
+Version 1.0 to 1.1
+
+- Improved: 
+	+ Improved: add option to export and import theme config
+	+ Improved: add header style 2
+- Fixed: 
+	+ Fix for translate
+
+File changed and added:
+	modules/tspmegamenu/tspmegamenu.tpl
+	modules/tspsobietheme/config.xml
+	modules/tspsobietheme/tspsobiecore.php
+	modules/tspsobietheme/tspsobietheme.php
+	modules/tspsobietheme/views/templates/admin/_configure/helpers/form/form.tpl
+	modules/tspsobietheme/data_config/demo_1.txt
+	themes/tsp_sobie/config.xml
+	themes/tsp_sobie/js/tsp-script.js
+	themes/tsp_sobie/modules/blockcart/blockcart.tpl
+	themes/tsp_sobie/modules/blocktopmenu/blocktopmenu.tpl
+	themes/tsp_sobie/modules/smartblog/views/templates/front/comment_loop.tpl
+	themes/tsp_sobie/modules/smartblog/views/templates/front/postcategory.tpl
+	themes/tsp_sobie/modules/smartblog/views/templates/front/posts.tpl
+	themes/tsp_sobie/modules/smartblog/views/templates/front/search-not-found.tpl
+	themes/tsp_sobie/modules/smartblogsearch/views/templates/front/smartblogsearch.tpl
+	themes/tsp_sobie/sass/theme.scss
+	themes/tsp_sobie/sass/theme/_header2.scss
+	themes/tsp_sobie/tsp-cpanel.tpl
+	themes/tsp_sobie/header-style-2.tpl
+
+
+Help:
+- Upload and unzip upgrade_1.0-1.1.zip to ROOT
+- Go to BO > TPL Solution > TSP Sobie Theme > Tab Advance > Clear CSS
+Note: 
+- If you have changed the above file you can use the tool http://winmerge.org/ to compare with our changes to the code
+
